@@ -1,7 +1,5 @@
 name : Java code build and  recview  via sonarcube
-on:
-  push:
-    branches: master
+on: push
 jobs:
   buildjavacode:
     runs-on: ubuntu-latest
